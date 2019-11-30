@@ -57,8 +57,8 @@ app.post('/send',async(req,res)=>{
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-          user: 'a9236437500@gmail.com', // generated ethereal user
-          pass: 'Sarosh123#' // generated ethereal password
+          user: 'mohdravil001@gmail.com',
+           pass: 'mohdravil123@'
         },
         tls:{
             rejectUnauthorized:false
@@ -67,7 +67,7 @@ app.post('/send',async(req,res)=>{
     
       // send mail with defined transport object
       let mailOptions={
-        from: '"You have got a visitor" <a9236437500@gmail.com>', // sender address
+        from: '"You have got a visitor" <mohdravil001@gmail.com>', // sender address
         to: req.body.email1, // list of receivers
         subject: "Visit request", // Subject line
         text: "Hello world?", // plain text body
@@ -126,8 +126,8 @@ app.post('/checkout',async(req,res)=>{
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-          user: 'a9236437500@gmail.com', // generated ethereal user
-          pass: 'Sarosh123#' // generated ethereal password
+         user: 'mohdravil001@gmail.com',
+         pass: 'mohdravil123@'
         },
         tls:{
             rejectUnauthorized:false
@@ -136,7 +136,7 @@ app.post('/checkout',async(req,res)=>{
         
       // send mail with defined transport object
       let mailOptions={
-        from: '"Thanks for The visit!" <a9236437500@gmail.com>', // sender address
+        from: '"Thanks for The visit!" <mohdravil001@gmail.com>', // sender address
         to: item1.email, // list of receivers
         subject: "Visit Finished", // Subject line
         text: "Hello world?", // plain text body
