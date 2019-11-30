@@ -105,6 +105,7 @@ app.post('/send',async(req,res)=>{
        }
      )
 })
+const port=process.env.PORT || 3000
 app.post('/checkout',async(req,res)=>{
   let item1=await visitor.findOne({where:{id:req.cookies.id}})
   let item2=await host.findOne({where:{id:item1.hostId}})
@@ -132,7 +133,7 @@ app.post('/checkout',async(req,res)=>{
             rejectUnauthorized:false
         }
       }));
-    
+        
       // send mail with defined transport object
       let mailOptions={
         from: '"Thanks for The visit!" <a9236437500@gmail.com>', // sender address
@@ -173,6 +174,6 @@ app.post('/checkout',async(req,res)=>{
        })
      res.render('index',{layout:false})
 })
-app.listen(3000,()=>{
+app.listen(port,()=>{
 console.log('server has started')
 })
