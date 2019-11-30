@@ -1,8 +1,7 @@
 {
   "name": "service",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +19,15 @@
     "nodemailer-smtp-transport": "^2.7.4",
     "sequelize": "^5.21.2",
     "sqlite3": "^4.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarosh-123/Innovacer-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sarosh-123/Innovacer-Project/issues"
+  },
+  "homepage": "https://github.com/Sarosh-123/Innovacer-Project#readme",
+  "description": ""
 }
