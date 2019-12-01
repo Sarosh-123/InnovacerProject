@@ -16,8 +16,7 @@
 ### After clicking on the checkin button a message and an email will be generated to the host informing him the details of the visitor
 ## Waiting Page
 ![Screenshot (193)](https://user-images.githubusercontent.com/49112873/69902665-53da1c00-13b6-11ea-8826-36a9cd5a9c1a.png)
-## After checkin visitor and host will interact,after interaction visitor will click checkout button and a message and an email will be sent to
-the visitor containing the details of the host such as :
+## After checkin visitor and host will interact,after interaction visitor will click checkout button and a message and an email will be sent to the visitor containing the details of the host such as :
 - Name of the host
 - Phone no of the host
 - email of the host
